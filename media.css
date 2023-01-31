@@ -3,13 +3,12 @@
         height: 70vh !important;
         margin-top: -10% !important;
     }
-    .container {
+    .container1 {
         width: 350px !important;
         height: 350px !important;
       }
        .card1 {
-        width: 150px !important;
-        row-gap: 10px;
+        width: 130px !important;
        }    
        .title {
         font-size: 6px !important;
