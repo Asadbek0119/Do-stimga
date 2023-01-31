@@ -1,0 +1,39 @@
+@media (max-width:577px) {
+    .end {
+        height: 70vh !important;
+        margin-top: -10% !important;
+    }
+    .container {
+        width: 350px !important;
+        height: 350px !important;
+      }
+       .card1 {
+        width: 150px !important;
+        row-gap: 10px;
+       }    
+       .title {
+        font-size: 6px !important;
+       }
+       .item {
+        font-size: 10px !important;
+        margin: unset !important;
+       }    
+       .img {
+        width: 100px !important;
+        height: 100px !important;
+      
+       }
+       .vidio {
+        margin: 20px 0 !important;
+       }
+       .v {
+        border-radius: 30px;
+        width: 100px !important;
+        height: 140px !important;
+       }
+       h2 {
+        position: relative;
+        font-size: 22px !important;
+        color: rgb(218, 27, 27) !important;
+       }
+}

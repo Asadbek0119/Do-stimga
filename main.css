@@ -19,13 +19,13 @@
   align-items: center;
   justify-content: center;
   row-gap: 50px;
-  min-height: 80vh;
+  min-height: 100vh;
   background: #111;
  }
  h2 {
   position: relative;
-  font-size: 22px;
-  color: rgb(218, 27, 27);
+  font-size: 52px;
+  color: #222;
   box-shadow: 10px 0 40px rgb(85, 255, 0);
  }
  h2::before {
@@ -88,7 +88,7 @@
   font-size: 10px;
  }
  .vidio {
-  margin: 20px 0;
+  margin: 50px 0;
   width: 100%;
   display: flex;
   align-items: center;
@@ -96,8 +96,8 @@
  }
  .v {
   border-radius: 30px;
-  width: 100px;
-  height: 140px;
+  width: 300px;
+  height: 340px;
   box-shadow: 10px 0 20px red;
   object-fit: cover;
  }
@@ -114,34 +114,64 @@
   height: 800px;
  }
  .img {
-  width: 100px;
-  height: 100px;
+  width: 300px;
+  height: 300px;
   border-radius: 30px;
   box-shadow: 10px 0 20px red;
  }
+ .a {
+  border-radius: 30px;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+ }
+ .imgs {
+  object-fit: cover;
+
+ }
+ .carousel-indicators {
+  margin-bottom: -3%;
+ }
+ button {
+  width: 20px !important;
+  height: 20px !important;
+  border-radius: 50%;
+ }
+
+ .col__title {
+  color: white;
+  font-size: 45px;
+  text-align: center;
+  letter-spacing: 1px ;
+ }
+
+
+ 
  .cards {
   width: 100%;
-  height: 200px;
+  /* height: 500px; */
   display: flex;
   justify-content: space-between;
+  border: 2px solid red;
  }
- .card {
-  width: 120px;
+ .card1 {
+  /* width: 120px; */
   display: flex;
   flex-direction: column;
   align-items: center;
-  row-gap: 10px;
+  /* row-gap: 10px; */
  }
  .title {
-  font-size: 6px;
+  font-size: 14px;
   letter-spacing: 1px;
-  font-weight: 100;
+  font-weight: 400;
   text-align: center;
-  color: #fff;
+  color: rgb(255, 241, 241);
  }
  .item {
+  margin: 16px 0;
   text-align: center;
-  font-size: 10px;
+  font-size: 20px;
   color: red;
  }
 
@@ -154,18 +184,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 70vh;
+  height: 100vh;
   overflow-y: hidden;
   background: #111;
+  margin-top: 45%;
 }
 .container {
   position: absolute;
-  width: 350px;
-  height: 350px;
+  width: 650px;
+  height: 650px;
   transform-style: preserve-3d;
   transform: perspective(600px) rotate(0deg);
 }
-span {
+.gul {
   position: absolute;
   display: block;
   box-sizing: border-box;
@@ -195,105 +226,105 @@ span {
       transform: rotate(0deg);
   }
 }
-.container span:nth-child(1){
+.container .gul:nth-child(1){
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   animation-delay: 0.2s;
 }
-.container span:nth-child(2){
+.container .gul:nth-child(2){
   top: 10px;
   left: 10px;
   right: 10px;
   bottom: 10px;
   animation-delay: 0.6s;
 }
-.container span:nth-child(3){
+.container .gul:nth-child(3){
   top: 20px;
   left: 20px;
   right: 20px;
   bottom: 20px;
   animation-delay: 1s;
 }
-.container span:nth-child(4){
+.container .gul:nth-child(4){
   top: 30px;
   left: 30px;
   right: 30px;
   bottom: 30px;
   animation-delay: 1.6s;
 }
-.container span:nth-child(5){
+.container .gul:nth-child(5){
   top: 40px;
   left: 40px;
   right: 40px;
   bottom: 40px;
   animation-delay: 2s;
 }
-.container span:nth-child(6){
+.container .gul:nth-child(6){
   top: 50px;
   left: 50px;
   right: 50px;
   bottom: 50px;
   animation-delay: 2.4s;
 }
-.container span:nth-child(7){
+.container .gul:nth-child(7){
   top: 60px;
   left: 60px;
   right: 60px;
   bottom: 60px;
   animation-delay: 2.8s;
 }
-.container span:nth-child(8){
+.container .gul:nth-child(8){
   top: 90px;
   left: 90px;
   right: 90px;
   bottom: 90px;
   animation-delay: 3.2s;
 }
-.container span:nth-child(9){
+.container .gul:nth-child(9){
   top: 100px;
   left: 100px;
   right:100px;
   bottom: 100px;
   animation-delay: 3.6s;
 }
-.container span:nth-child(11){
+.container .gul:nth-child(11){
   top:120px;
   left: 120px;
   right: 120px;
   bottom: 120px;
   animation-delay: 4s;
 }
-.container span:nth-child(12){
+.container .gul:nth-child(12){
   top:130px;
   left: 130px;
   right: 130px;
   bottom: 130px;
   animation-delay: 4.4s;
 }
-.container span:nth-child(13){
+.container .gul:nth-child(13){
   top:140px;
   left: 140px;
   right: 140px;
   bottom: 140px;
   animation-delay: 4.8s;
 }
-.container span:nth-child(14){
+.container .gul:nth-child(14){
   top:150px;
   left: 150px;
   right: 150px;
   bottom: 150px;
   animation-delay: 5.2s;
 }
-.container span:nth-child(15){
+.container .gul:nth-child(15){
   top:155px;
   left: 155px;
   right: 155px;
   bottom: 155px;
   animation-delay: 5.6s;
 }
-.container span:nth-child(16){
+.container .gul:nth-child(16){
   top:160px;
   left: 160px;
   right: 160px;
